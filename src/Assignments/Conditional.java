@@ -1,4 +1,4 @@
-package com.mru.methods;
+package Assignments;
 
 public class Conditional {
 
