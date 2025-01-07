@@ -33,12 +33,18 @@ public class Loops {
 			System.out.println(arr1[x]);
 			x++;
 		}
+		
+		//do while loop
 		System.out.println("Do While Loop: ");
 		int y=0;
 		do {
 			System.out.println(arr1[y]);
 			y++;
 		}while(y<n);
+		
+		//For each loop
+		System.out.println("For Each Loop: ");
+		
 	}
 
 }
