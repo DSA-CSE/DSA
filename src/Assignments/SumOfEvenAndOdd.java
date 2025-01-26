@@ -1,4 +1,4 @@
-package com.mru.faqs;
+package Assignments;
 
 public class SumOfEvenAndOdd {
 
