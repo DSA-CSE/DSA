@@ -12,12 +12,10 @@ public class DuplicateEle {
     public static void findDuplicates(int[] array) {
         HashMap<Integer, Integer> elementCount = new HashMap<>();
 
-        // Count the frequency of each element
         for (int num : array) {
             elementCount.put(num, elementCount.getOrDefault(num, 0) + 1);
         }
 
-        // Display duplicates
         boolean hasDuplicates = false;
         System.out.println("Duplicate elements in the array:");
         for (var entry : elementCount.entrySet()) {
